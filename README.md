@@ -21,7 +21,9 @@ With the additional attribute `rotated` the traffic light can be turned around b
 ## Helpful commands during development
 
 `npm install`: Installs the required dependencies.
+
 `npm run package`: Creates the final bundle.
+
 `npm run watch`: Syncs with the changed source and reloads content in browser.
 
-During `watch` the template can be displayed in the browser: http://localhost:9000
+During `watch` the index.html from created dist folder can be opened in browser to display changes.
