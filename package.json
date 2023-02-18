@@ -1,0 +1,27 @@
+{ "name": "traffic-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "lint": "eslint \"src/**/*.ts\"",
+    "package": "npm run lint && npm run build",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Björn Berg",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
