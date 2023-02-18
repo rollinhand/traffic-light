@@ -1,4 +1,6 @@
 # Traffic Light
+[![NodeJS with Webpack](https://github.com/rollinhand/traffic-light/actions/workflows/webpack.yml/badge.svg)](https://github.com/rollinhand/traffic-light/actions/workflows/webpack.yml)
+
 A web-component displaying a traffic light based on a SVG image.
 
 ![](_img/default.png)
